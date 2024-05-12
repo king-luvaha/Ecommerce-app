@@ -19,3 +19,7 @@
 - Items can be added and viewed from cart-menu
 - User can proceed to checkout page
 - Once you place your order, you can go to stripe checkout.
+
+![Preview 1](./Preview1.png)
+![Preview 2](./Preview2.png)
+![Preview 3](./Preview3.png)
