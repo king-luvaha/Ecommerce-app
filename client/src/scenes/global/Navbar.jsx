@@ -26,7 +26,7 @@ function Navbar() {
       position="sticky"
       top="0"
       left="0"
-      zIndex="1100"
+      zIndex="1"
     >
       <Box
         width="80%"
