@@ -20,5 +20,5 @@
 - User can proceed to checkout page
 - Once you place your order, you can go to stripe checkout.
 
-![Preview 1](./Preview1.png)
+![Preview 1](./Preview3.png)
 
