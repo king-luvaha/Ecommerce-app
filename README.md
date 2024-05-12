@@ -21,4 +21,4 @@
 - Once you place your order, you can go to stripe checkout.
 
 ![Preview 1](./Preview1.png)
-![Preview 2](./Preview2.png)
+
