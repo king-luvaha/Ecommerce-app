@@ -24,4 +24,6 @@
 ![Preview 1](./Preview2.png)
 ![Preview 1](./Preview3.png)
 
+- Stripe checkout not working. Will integrate Mpesa Payment system
+
 
