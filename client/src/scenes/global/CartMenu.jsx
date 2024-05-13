@@ -87,7 +87,7 @@ const CartMenu = () => {
                                                 <CloseIcon />
                                             </IconButton>
                                         </Flexbox>
-                                        <Typography>{item.attributes.shortDescription}</Typography>
+                                        <Typography>{item?.attributes?.shortDescription[0]?.children[0]?.text}</Typography>
 
                                         {/* AMOUNT */}
                                         <Flexbox m="15px 0">
@@ -110,7 +110,7 @@ const CartMenu = () => {
                                             </Box>
                                             {/* PRICE */}
                                             <Typography fontWeight="bold">
-                                                ${item.attributes.price}
+                                                Ksh {item.attributes.price}
                                             </Typography>   
                                         </Flexbox>
                                     </Box>
@@ -124,7 +124,7 @@ const CartMenu = () => {
                     <Box m="20px 0">
                         <Flexbox m="20px 0">
                             <Typography fontWeight="bold">SUBTOTAL</Typography>
-                            <Typography fontWeight="bold">${totalPrice}</Typography>
+                            <Typography fontWeight="bold">Ksh {totalPrice}</Typography>
                         </Flexbox>
                         <Button
                             sx={{

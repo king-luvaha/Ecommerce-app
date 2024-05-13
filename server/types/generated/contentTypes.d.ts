@@ -794,17 +794,18 @@ export interface ApiItemItem extends Schema.CollectionType {
     singularName: 'item';
     pluralName: 'items';
     displayName: 'Item';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     name: Attribute.String;
-    shortDescription: Attribute.Blocks;
-    longDescription: Attribute.Blocks;
     price: Attribute.Decimal;
     image: Attribute.Media;
     category: Attribute.Enumeration<['newArrivals', 'bestSellers', 'topRated']>;
+    shortDescription: Attribute.Blocks;
+    longDescription: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
